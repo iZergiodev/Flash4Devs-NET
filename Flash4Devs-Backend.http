@@ -1,0 +1,6 @@
+@Flash4Devs_Backend_HostAddress = http://localhost:5072
+
+GET {{Flash4Devs_Backend_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
