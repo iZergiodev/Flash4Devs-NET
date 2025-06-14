@@ -164,3 +164,4 @@ C:\Users\sergi\OneDrive\Documentos\Flash4Devs-Backend\Flash4Devs-Backend\obj\Deb
 C:\Users\sergi\OneDrive\Documentos\Flash4Devs-Backend\Flash4Devs-Backend\obj\Debug\net8.0\Flash4Devs-Backend.pdb
 C:\Users\sergi\OneDrive\Documentos\Flash4Devs-Backend\Flash4Devs-Backend\obj\Debug\net8.0\Flash4Devs-Backend.genruntimeconfig.cache
 C:\Users\sergi\OneDrive\Documentos\Flash4Devs-Backend\Flash4Devs-Backend\obj\Debug\net8.0\ref\Flash4Devs-Backend.dll
+C:\Users\sergi\OneDrive\Documentos\Flash4Devs-Backend\Flash4Devs-Backend\obj\Debug\net8.0\Flash4Devs-Backend.sourcelink.json
