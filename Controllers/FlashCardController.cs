@@ -1,4 +1,5 @@
 using Flash4Devs_Backend.Models;
+using Flash4Devs_Backend.DTO;
 using Flash4Devs_Backend.Repositories;
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
@@ -33,8 +34,14 @@ namespace Flash4Devs_Backend.Controllers
         }
 
         [HttpPost]
-        public async Task<ActionResult> Create(FlashCard flashcard)
+        public async Task<ActionResult> Create(DTO.FlashcardCreateDto flashcardDto)
         {
+            var flashcard = new FlashCard
+            {
+                Question = flashcardDto.Question,
+                Category = flashcardDto.Category,
+                Difficult = flashcardDto.Difficult
+            };
             await _flashcardRepository.AddAsync(flashcard);
             return CreatedAtAction(nameof(GetById), new { id = flashcard.Id }, flashcard);
         }
